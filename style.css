@@ -1,0 +1,419 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  color: #000;
+  border-bottom: 2px solid #0000ff;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1593136596203-7212b076f4d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGludGVyaXJvciUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.hero h3 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.btn {
+  display: inline-block;
+  background-color: hsl(245, 77%, 53%);
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+/* abou */
+
+#about {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+#about p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+/* Features section styles */
+.features {
+  background-color: #f5f5f5;
+  padding: 100px 0;
+}
+
+.features h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.feature-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.feature-icon {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.feature-icon i {
+  font-size: 2.5rem;
+  color: blue;
+}
+
+.feature-content h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.feature-content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Testimonial section styles */
+.testimonial {
+  background-color: #fff;
+  padding: 100px 0;
+}
+.testimonial-slider {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.testimonial h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.testimonial-box {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 50px;
+  margin-left: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+.testimonial-box p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.testimonial-box img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.testimonial-box h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.testimonial-box span {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+/* Call to action section styles */
+
+#cta {
+  background-color: #333;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#cta h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+#cta p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+#cta .btn {
+  display: inline-block;
+  background-color: #0000ff;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#cta .btn:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+/* contact */
+#contact {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+#contact p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#contact input,
+#contact textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-family: inherit;
+}
+
+#contact button[type="submit"] {
+  background-color: hsl(245, 77%, 53%);
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+footer p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer nav li {
+  margin: 0 15px;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .features {
+    padding: 50px 0;
+  }
+
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .feature-box {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .feature-icon {
+    margin-bottom: 20px;
+  }
+
+  .testimonial {
+    padding: 50px 0;
+  }
+
+  .testimonial h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .testimonial-box {
+    padding: 30px;
+  }
+
+  #cta {
+    padding: 50px 0;
+  }
+
+  #cta h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  #cta p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  #contact {
+    padding: 50px 0;
+  }
+
+  #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  #contact p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  footer {
+    padding: 30px 0;
+  }
+
+  footer p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  footer nav li {
+    margin: 0 10px;
+  }
+
+  footer nav a {
+    font-size: 1rem;
+  }
+  /* testimonial */
+  .testimonial {
+    display: none;
+  }
+}
