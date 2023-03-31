@@ -149,6 +149,10 @@ nav a:hover {
   font-size: 2.5rem;
   color: blue;
 }
+.feature-icon i:hover {
+  font-size: 2.5rem;
+  color: rgb(18, 119, 153);
+}
 
 .feature-content h3 {
   font-size: 1.8rem;
